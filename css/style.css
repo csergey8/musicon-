@@ -1,0 +1,101 @@
+:root {
+  --color-primary: #4A748A; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+  @media only screen and (max-width: 68.75em) {
+    html {
+      font-size: 50%; } }
+
+body {
+  font-family: 'Monserrat', sans-serif;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  background: #262626;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  height: 100%;
+  min-height: 100vh; }
+
+a, a:hover, a:active {
+  text-decoration: none;
+  transition: all 0.5s ease; }
+
+.container {
+  width: 87%;
+  margin: 0 auto;
+  position: relative;
+  height: 30rem;
+  border: 2px solid; }
+
+.d-flex {
+  display: flex; }
+
+.offer, .slider {
+  width: 50%;
+  border: 1px solid red;
+  position: relative; }
+
+.btn {
+  background: #e930a1;
+  color: #fff;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.2rem;
+  width: 18.5rem;
+  padding: 2.2rem 0;
+  border-radius: 10rem;
+  display: block; }
+
+.btn:hover {
+  background: #ff009c;
+  box-shadow: 0 10px 30px rgba(233, 48, 161, 0.4); }
+
+.btn-round {
+  font-size: 9px;
+  border: 1px solid #30e9a1;
+  color: #30e9a1;
+  padding: 5px 1.6rem;
+  text-transform: uppercase;
+  border-radius: 10rem; }
+
+.btn-round:hover {
+  background: #30e9a1;
+  color: #fff;
+  border: 1px solid #30e9a1;
+  color: #000; }
+
+.btn, .btn:link, .btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  border-radius: 3rem;
+  transition: all .2s;
+  position: relative;
+  font-size: 1.6rem;
+  background-color: var(--color-primary-light);
+  color: #ffffff;
+  border: none;
+  user-select: none;
+  cursor: pointer;
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.2);
+  transition: all .6s; }
+  .btn:hover, .btn:link:hover, .btn:visited:hover {
+    box-shadow: 4px 10px 17px rgba(0, 0, 0, 0.4);
+    bottom: 1px;
+    background-color: var(--color-primary); }
+  .btn:active, .btn:link:active, .btn:visited:active {
+    top: 1px; }
