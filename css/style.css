@@ -30,22 +30,29 @@ body {
 
 a, a:hover, a:active {
   text-decoration: none;
-  transition: all 0.5s ease; }
+  transition: all 0.5s ease;
+  color: #fff; }
+
+ul, li {
+  display: block;
+  padding: 0;
+  margin: 0; }
 
 .container {
   width: 87%;
   margin: 0 auto;
   position: relative;
-  height: 30rem;
-  border: 2px solid; }
+  height: 100%; }
 
 .d-flex {
   display: flex; }
 
 .offer, .slider {
   width: 50%;
-  border: 1px solid red;
   position: relative; }
+
+.align-items-center {
+  align-items: center; }
 
 .btn {
   background: #e930a1;
@@ -77,25 +84,62 @@ a, a:hover, a:active {
   border: 1px solid #30e9a1;
   color: #000; }
 
-.btn, .btn:link, .btn:visited {
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 1.5rem 4rem;
-  display: inline-block;
-  border-radius: 3rem;
-  transition: all .2s;
-  position: relative;
-  font-size: 1.6rem;
-  background-color: var(--color-primary-light);
-  color: #ffffff;
-  border: none;
-  user-select: none;
-  cursor: pointer;
-  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.2);
-  transition: all .6s; }
-  .btn:hover, .btn:link:hover, .btn:visited:hover {
-    box-shadow: 4px 10px 17px rgba(0, 0, 0, 0.4);
-    bottom: 1px;
-    background-color: var(--color-primary); }
-  .btn:active, .btn:link:active, .btn:visited:active {
-    top: 1px; }
+.logo {
+  align-items: center; }
+  .logo__text {
+    font-size: 1.8rem;
+    font-weight: 100;
+    margin-left: 15px;
+    letter-spacing: 5px; }
+  .logo__img {
+    height: 2rem;
+    width: 2rem; }
+
+.menu {
+  margin-left: 23.5rem; }
+  .menu__item {
+    margin-right: 4.7rem; }
+    .menu__item a {
+      font-size: 1.3rem;
+      font-weight: 300; }
+      .menu__item a:hover {
+        color: #23c8d2; }
+
+.header {
+  height: 15vh; }
+
+.auth {
+  margin-left: auto; }
+  .auth__profile {
+    font-size: .8rem;
+    color: #b2b2b2;
+    margin-bottom: 5px; }
+  .auth__info {
+    margin-left: 1.5rem; }
+  .auth__name {
+    font-size: 1rem; }
+  .auth__img {
+    border: 1px solid #404040;
+    border-radius: 50%;
+    width: 57px;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .auth__play {
+    display: block;
+    background: #353535;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 21px; }
+  .auth__more {
+    background: transparent url("../img/arrow.png") no-repeat;
+    border: none;
+    width: 5px;
+    height: 6px;
+    margin-left: 15px;
+    display: block;
+    cursor: pointer; }

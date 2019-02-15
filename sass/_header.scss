@@ -1,0 +1,86 @@
+.logo {
+  align-items: center;
+
+  &__text {
+    font-size: 1.8rem;
+    font-weight: 100;
+    margin-left: 15px;
+    letter-spacing: 5px;
+  }
+
+  &__img {
+    height: 2rem;
+    width: 2rem;
+  }
+}
+
+.menu {
+  margin-left: 23.5rem;
+
+  &__item {
+    margin-right: 4.7rem;
+
+    & a {
+      font-size: 1.3rem;
+      font-weight: 300;
+
+      &:hover {
+        color: #23c8d2;
+      }
+    }
+  }
+}
+
+.header {
+  height: 15vh;
+}
+
+.auth {
+  margin-left: auto;
+
+  &__profile {
+    font-size: .8rem;
+    color: #b2b2b2;
+    margin-bottom: 5px;
+  }
+
+  &__info {
+    margin-left: 1.5rem;
+  }
+
+  &__name {
+    font-size: 1rem;
+  }
+
+  &__img {
+    border: 1px solid #404040;
+    border-radius: 50%;
+    width: 57px;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__play {
+    display: block;
+    background: #353535;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 21px;
+  }
+
+  &__more {
+    background: transparent url('../img/arrow.png') no-repeat;
+    border: none;
+    width: 5px;
+    height: 6px; 
+    margin-left: 15px;
+    display: block; 
+    cursor: pointer;
+  }
+}
+

@@ -12,8 +12,7 @@
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%;
-  height: 100%; }
+  font-size: 62.5%; }
   @media only screen and (max-width: 68.75em) {
     html {
       font-size: 50%; } }
@@ -36,16 +35,13 @@ a, a:hover, a:active {
 .container {
   width: 87%;
   margin: 0 auto;
-  position: relative;
-  height: 30rem;
-  border: 2px solid; }
+  position: relative; }
 
 .d-flex {
   display: flex; }
 
 .offer, .slider {
   width: 50%;
-  border: 1px solid red;
   position: relative; }
 
 .btn {
@@ -78,25 +74,5 @@ a, a:hover, a:active {
   border: 1px solid #30e9a1;
   color: #000; }
 
-.btn, .btn:link, .btn:visited {
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 1.5rem 4rem;
-  display: inline-block;
-  border-radius: 3rem;
-  transition: all .2s;
-  position: relative;
-  font-size: 1.6rem;
-  background-color: var(--color-primary-light);
-  color: #ffffff;
-  border: none;
-  user-select: none;
-  cursor: pointer;
-  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.2);
-  transition: all .6s; }
-  .btn:hover, .btn:link:hover, .btn:visited:hover {
-    box-shadow: 4px 10px 17px rgba(0, 0, 0, 0.4);
-    bottom: 1px;
-    background-color: var(--color-primary); }
-  .btn:active, .btn:link:active, .btn:visited:active {
-    top: 1px; }
+.logo {
+  font-size: 30rem; }
