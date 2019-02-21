@@ -219,7 +219,8 @@ ul, li {
   height: 30%;
   position: absolute;
   bottom: 2.4rem;
-  left: -4rem; }
+  left: -4rem;
+  z-index: 6; }
 
 .plus-two {
   background: url("../img/plus_two.png") no-repeat center center/contain;
